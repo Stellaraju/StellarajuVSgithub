@@ -1,0 +1,46 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 120%;
+}
+
+body {
+  margin-bottom: 70px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #4CAF50;
+    margin-top: 50px;
+}
+
+/* Styling the YouTube video container */
+.video-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
